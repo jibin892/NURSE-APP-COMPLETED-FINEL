@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient_bg"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="391dp"
+        android:layout_height="691dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/pname"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="85dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/username"
+                android:drawableLeft="@drawable/username"
+                android:hint="Patient name"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pname8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:text="Patient Genger"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/pspiner"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:paddingLeft="8dp"
+                android:paddingTop="1dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pph"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"
+                android:hint="Mobile Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pemail"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"
+                android:hint="Email id"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pdate"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/datee"
+                android:drawableLeft="@drawable/datee"
+                android:focusable="false"
+                android:hint="date"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+            <EditText
+                android:id="@+id/ptime"
+                android:layout_width="301dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/time"
+                android:drawableLeft="@drawable/time"
+                android:focusable="false"
+                android:hint="time"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="305dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnn"
+                android:drawableStart="@drawable/place"
+                android:drawableLeft="@drawable/place"
+             
+                android:hint="Tap to find Location"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+            <Button
+                android:id="@+id/tr_btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn"
+                android:onClick="logout"
+                android:padding="4dp"
+                android:text="SUDMIT"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
